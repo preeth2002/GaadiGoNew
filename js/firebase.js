@@ -1,3 +1,7 @@
+await import ("https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js");
+await import ("https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js");
+await import ("https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js");
+
 const firebaseConfig = {
   apiKey: "AIzaSyAKIchMktJz5rM_XvbIscYw1QYB4qobThc",
   authDomain: "gaadigo-d269c.firebaseapp.com",
@@ -9,7 +13,7 @@ const firebaseConfig = {
   measurementId: "G-9KTMPQ3ZPV",
 };
 
-initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 const firestore = firebase.firestore();
 
 export function firebaseSuccessMsg() {

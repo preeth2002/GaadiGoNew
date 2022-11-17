@@ -1,5 +1,3 @@
-
-// Write data to firebase
 import { loginDetails, firebaseSuccessMsg } from "./firebase.js";
 import { hashPassword } from "./password-functions.js";
 
@@ -32,7 +30,7 @@ async function createAccountViaForm(e) {
     name: document.getElementById("full_name").value,
   };
 
-  loginDetails.add(data);
+  loginDetails.add(data); // Write data to firebase
 
   firebaseSuccessMsg();
   createAccountForm.reset();
