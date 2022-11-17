@@ -18,33 +18,7 @@ a {
     font-size: 1.2rem;
 }
 
-.a {
-    background-color: black;
-}
 
-.b {
-    color: white;
-    font-size: 20px;
-}
-
-.baaa:hover {
-    color: red;
-}
-
-.abd {
-    padding-left: 3cm;
-}
-
-.e {
-    background-color: white;
-}
-
-.j {
-    color: black;
-    text-decoration: none;
-    border: none;
-    font-size: 22px;
-}
 
 body {
     background: #add8e6;
