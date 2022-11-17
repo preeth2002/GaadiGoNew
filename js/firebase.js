@@ -26,5 +26,5 @@ export function firebaseSuccessMsg() {
 }
 
 // Collection and document references
-export const carRegister = firestore.collection("car_register");
-export const loginDetails = firestore.collection("login_details");
+export const carRegister = firestore.collection("new_car_register");
+export const loginDetails = firestore.collection("new_login_details");
