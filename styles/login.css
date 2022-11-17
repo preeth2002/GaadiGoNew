@@ -2,8 +2,6 @@
     --color-primary: #add8e6;
     --color-primary-dark: #a0c6d3;
     --color-secondary: #252c6a;
-    --color-error: #cc3333;
-    --color-success: #4bb544;
     --border-radius: 4px;
 
     margin: 0;
@@ -32,10 +30,6 @@
     font: 500 1rem 'Quicksand', sans-serif;
 }
 
-.form--hidden {
-    display: none;
-}
-
 .form>*:first-child {
     margin-top: 0;
 }
@@ -54,13 +48,6 @@
     margin-bottom: 1rem;
 }
 
-.form__message--success {
-    color: var(--color-success);
-}
-
-.form__message--error {
-    color: var(--color-error);
-}
 
 .form__input-group {
     margin-bottom: 1rem;
@@ -81,17 +68,6 @@
 .form__input:focus {
     border-color: var(--color-primary);
     background: #ffffff;
-}
-
-.form__input--error {
-    color: var(--color-error);
-    border-color: var(--color-error);
-}
-
-.form__input-error-message {
-    margin-top: 0.5rem;
-    font-size: 0.85rem;
-    color: var(--color-error);
 }
 
 .form__button {
