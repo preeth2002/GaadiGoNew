@@ -9,7 +9,7 @@ const firebaseConfig = {
   measurementId: "G-9KTMPQ3ZPV",
 };
 
-firebase.initializeApp(firebaseConfig);
+initializeApp(firebaseConfig);
 const firestore = firebase.firestore();
 
 export function firebaseSuccessMsg() {
