@@ -64,6 +64,18 @@ hr {
   background-size: cover;
 }
 
+a {
+    display: inline-block;
+    padding: 1em 3.5em;
+    background-color: var(--color);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: 1.2rem;
+}
 
 li {
   list-style: none;
