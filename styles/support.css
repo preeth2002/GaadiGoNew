@@ -67,17 +67,7 @@ body{
     text-align: center;
   }
  
-  .a{
-    background-color: black;
-    height: 100px;
-  }
-  .abd{
-    padding: 3cm;
-  }
-  .b{
-    background: gray;
-    color: black;
-  }
+  
   li {
     list-style: none;
    }
