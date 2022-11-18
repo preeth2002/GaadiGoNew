@@ -186,3 +186,8 @@ li {
  a{
   text-decoration: none;
  }
+
+#firebase_success_msg {
+  color : white;
+    font-size: 20px;
+}
